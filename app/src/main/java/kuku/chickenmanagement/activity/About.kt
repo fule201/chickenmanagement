@@ -14,9 +14,9 @@ class About : AppCompatActivity() {
 
     }
 
-    override fun onBackPressed() {
-        startActivity(Intent(this, MainActivity::class.java))
-        finish()
-        super.onBackPressed()
-    }
+//    override fun onBackPressed() {
+//        startActivity(Intent(this, MainActivity::class.java))
+//        finish()
+//        super.onBackPressed()
+//    }
 }
