@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/uhomeID"
+            android:icon="@mipmap/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/ufeedID"
+            android:icon="@mipmap/feed"
+            android:title="Feeds" />
+        <item
+            android:id="@+id/umedID"
+            android:icon="@mipmap/med"
+            android:title="Medicine" />
+        <item
+            android:id="@+id/ueggcollectID"
+            android:icon="@mipmap/kuku"
+            android:title="Egg Collected" />
+        <item
+            android:id="@+id/extracostID"
+            android:icon="@android:drawable/alert_light_frame"
+            android:title="Extra Costs" />
+        <item
+            android:id="@+id/labourrecordID"
+            android:icon="@mipmap/laba"
+            android:title="Labour Record" />
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/ulogoutID"
+                android:icon="@mipmap/out"
+                android:title="Log Out" />
+
+        </menu>
+    </item>
+
+</menu>

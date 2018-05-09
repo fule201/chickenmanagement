@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aviewusersID"
+            android:icon="@mipmap/viewusers"
+            android:title="View Users" />
+        <item
+            android:id="@+id/anewpostID"
+            android:icon="@mipmap/newpost"
+            android:title="New Post" />
+        <item
+            android:id="@+id/adelpostid"
+            android:icon="@mipmap/del"
+            android:title="Delete Post" />
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/alogutID"
+                android:icon="@mipmap/out"
+                android:title="Log Out" />
+
+        </menu>
+    </item>
+
+</menu>

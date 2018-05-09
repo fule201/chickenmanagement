@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/LoginpopID"
+            android:icon="@mipmap/lg"
+            android:title="Login" />
+        <item
+            android:id="@+id/RegPopID"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="Register" />
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/ContactID"
+                android:icon="@android:drawable/ic_menu_call"
+                android:title="Contact Us"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/AboutID"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="About Kuku App" />
+        </menu>
+    </item>
+
+</menu>
